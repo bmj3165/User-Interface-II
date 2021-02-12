@@ -47,22 +47,77 @@ table {
 	border-spacing: 0;
 }
 
+*{
+    box-sizing: :border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+}
+
+header{
+    text-align: center;
+}
+
 h1{
-    text-align:center;
+    font-size: 500%;
 }
 
-header,nav a{
-    text-align:center;
+.topNav{
+    padding-top: 2%;
 }
 
-.intro{
-    text-align:center;
+.topNav a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding:0 2%;
+    margin-top:2%;
 }
+
+#top{
+    text-align: center;
+}
+
 h2{
-    font-size: 300%;
-    padding:3%;
+    font-size: 400%;
+    margin-top: 2%;
+}
+.intro p{
+    margin-top: 2%;
+    font-size: 200%;
 }
 
-.largeImage{
-    text-align:center;
+#largeImage{
+    display:flex;
+    justify-content:center;
+    margin-top: 2%;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+
+#projects{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer{
+    text-align: center;
+    background-color: blue;
+    
+}
+
+.bottomNav,.nav a{ 
+    margin-top: 5%;
+
+   
+}
+
+nav a , .imageLinks{
+    height: auto; 
+    width: auto; 
 }

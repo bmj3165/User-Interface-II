@@ -9,37 +9,48 @@
 <body>
     <header>
         <h1>Brooke Johnson</h1>
-        <nav>
-            <a href ="about.html"> About</a>
-            <a href ="projects.html">Projects</a>
-            <a href="Contact">Contact</a>
-        </nav>
+        <div class = "topNav">
+            <nav>
+                <a href ="#"> Home</a>
+                <a href ="about.html"> About</a>
+                <a href ="projects.html">Projects</a>
+                <a href="Contact">Contact</a>
+            </nav>
+        </div>    
     </header>
-    <sectionOne class = intro>
-        <h2>An Introduction to Brooke</h2>
-        <p>Hi! I'm Brooke. I'm a 27 year old wannabe programmer and streamer. I live in Rochester, NY, if your ever in town you should try a garbage plate. I like anime,
-           kdramas, gaming, and kpop. This is just a site that will hopefully house some of my upcoming projects I do while attending Lambda school until then enjoy the chaos.
-        </p>
-    </sectionOne>
-    <sectionTwo class = largeImage>
+    <section id = "top">
+        <div class = "intro">
+            <h2>An Introduction to Brooke</h2>
+            <p>Hi! I'm Brooke. I'm a 27 year old wannabe programmer and streamer. I live in Rochester, NY, if your ever in town you should try a garbage plate. I like anime,
+            kdramas, gaming, and kpop. This is just a site that will hopefully house some of my upcoming projects I do while attending Lambda school until then enjoy the chaos.
+            </p>
+        </div>    
+    </section>
+    <section id = largeImage>
         <img src="/style/meHulk.jpg" alt="">
-    </sectionTwo>
-    <sectionThree class =projects>
-        <img src="style/demonslayer.jpg"alt="">
-        <img src="style/mha.jpg"alt="">
-        <img src="style/aot.jpg"alt="">
-        <img src="style/mob.jpg"alt="">
+    </section>
+    <section id =projects>
+        <div class = "projectImages">
+            <img src="style/demonslayer.jpg"alt="">
+            <img src="style/mha.jpg"alt="">
+            <img src="style/aot.jpg"alt="">
+            <img src="style/mob.jpg"alt="">
+        </div>
         <div class = projectText>
             <p>To left you will find some of my favorite animes. Soon to be replaced with actual projects.</p>
         </div>
-    </sectionThree>
+    </section>
 
     <footer>
-        <nav>
-            <a href="https://www.instagram.com/_official_brookie/"><img src="style/instagram.png" alt="#"></a>
-            <a href="https://www.twitter.com"><img src="style/twitter.png" alt="#"></a>
-            <a href="https://Linkedin.com"><img src="style/linkedin.png" alt="#"></a>
-        </nav>
+        <div class = "bottomNav">
+            <nav>
+                <div class = imageLinks>
+                    <a href="https://www.instagram.com/_official_brookie/"><img src="style/instagram.png" alt="#" style="width:300px;height:300px;"></a>
+                    <a href="https://www.twitter.com"><img src="style/twitter.png" alt="#" style="width:200px;height:200px;"></a>
+                    <a href="https://Linkedin.com"><img src="style/linkedin.png" alt="#" style="width:200px;height:200px;"></a>
+                </div>    
+            </nav>
+        </div>    
     </footer>
     
 </body>
